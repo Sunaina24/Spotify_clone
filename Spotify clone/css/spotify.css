@@ -1,0 +1,63 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: blanchedalmond;
+    #artist-list {
+        margin: 20px;
+        padding: 10px;
+        background-color: #f3a5a5;
+        justify-content: center;
+        border-radius: 15px;
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: row;
+      }
+    .artist-card {
+        background-color:antiquewhite;
+        margin: 10px;
+        padding: 10px;
+    }
+}
+
+h1 {
+    color: rgb(13, 13, 43);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 20px;
+    border: 1px dotted #070000;
+    padding: 10px;
+    background-color: #f3a5a5;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+
+    #spotify-logo {
+        top: 10px;
+        left: 10px;
+        width: 100px;
+    }
+
+    li {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+}
